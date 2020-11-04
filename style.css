@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Heebo", sans-serif;
+
+}
+.landing {
+    min-height: 100vh;
+    background: url(./image/hero.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+}
+#logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.big-text {
+    position: absolute;
+    font-family: "Lobster", cursive;
+    top: 30%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%, -30%);
+    color: rgb(61, 61,61);
+    
+}
+.second-text {
+    position: absolute;
+    font-family: "Lobster", cursive;
+    top: 130%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%, -30%);
+    color: rgb(61, 61,61);
+    
+}
+.small-text {
+    position: absolute;
+    font-family: "Heebo", cursive;
+    top: 70%;
+    left: 50%;
+    font-size: 1.2rem;
+    transform: translate(-50%, -30%);
+    color: rgb(244, 247, 248);
+    text-shadow: 4px 5px 2px rgb(0, 0, 0);
+    
+}
+.ss-text {
+    position: absolute;
+    font-family: "Heebo", cursive;
+    top: 170%;
+    left: 50%;
+    font-size: 1.2rem;
+    transform: translate(-50%, -30%);
+    color: rgb(244, 247, 248);
+    text-shadow: 4px 5px 2px rgb(0, 0, 0);
+    
+}
+.intro {
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    font-family: "Heebo", sans-serif;
+    color: rgb(202, 202, 227);
+    font-size: 3rem;
+}
+
+.slider {
+    background: rgb(119, 112, 112);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+.hide {
+    overflow: hidden;
+    background: black;
+}
+
+.hide span {
+    display: inline-block;
+    transform: translateY(100%);
+}
+.hero {
+    min-height: 100vh;
+    background: url(./image/hero2.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+.slider {
+    background: rgb(119, 112, 112);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+}
